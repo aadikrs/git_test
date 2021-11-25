@@ -1,25 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a WIP of a Ruby on Rails learning task
 
-Things you may want to cover:
+It currently cover
 
-* Ruby version
+* Ruby and Rails installation and integration in Sublime Text
 
-* System dependencies
+* Installation and setup of mySQL
 
-* Configuration
+* Basics of Ruby and functionality of Rails
 
-* Database creation
+* Bootstrap integration and stylization of webpage and tables
 
-* Database initialization
+* Basic CRUD functionality
 
-* How to run the test suite
+* Partial linking and methods
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# test_1
+* Webapp in progress
