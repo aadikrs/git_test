@@ -1,0 +1,32 @@
+I, [2021-11-25T09:42:59.745736 #11160]  INFO -- : [f5499071-bc90-4e32-87ce-2551088b1cea] Started GET "/friends" for 127.0.0.1 at 2021-11-25 09:42:59 -0800
+I, [2021-11-25T09:42:59.747329 #11160]  INFO -- : [f5499071-bc90-4e32-87ce-2551088b1cea] Processing by FriendsController#index as HTML
+I, [2021-11-25T09:42:59.831273 #11160]  INFO -- : [f5499071-bc90-4e32-87ce-2551088b1cea]   Rendered friends/index.html.erb within layouts/application (Duration: 76.9ms | Allocations: 893)
+I, [2021-11-25T09:42:59.831405 #11160]  INFO -- : [f5499071-bc90-4e32-87ce-2551088b1cea]   Rendered layout layouts/application.html.erb (Duration: 77.2ms | Allocations: 959)
+I, [2021-11-25T09:42:59.831617 #11160]  INFO -- : [f5499071-bc90-4e32-87ce-2551088b1cea] Completed 500 Internal Server Error in 84ms (Allocations: 3652)
+F, [2021-11-25T09:42:59.847234 #11160] FATAL -- : [f5499071-bc90-4e32-87ce-2551088b1cea]   
+[f5499071-bc90-4e32-87ce-2551088b1cea] ActionView::Template::Error (Access denied for user 'test_1'@'localhost' (using password: NO)):
+[f5499071-bc90-4e32-87ce-2551088b1cea]     15:     </tr>
+[f5499071-bc90-4e32-87ce-2551088b1cea]     16:   </thead>
+[f5499071-bc90-4e32-87ce-2551088b1cea]     17:   <tbody>
+[f5499071-bc90-4e32-87ce-2551088b1cea]     18:     <% @friends.each do |friend| %>
+[f5499071-bc90-4e32-87ce-2551088b1cea]     19:       <tr>
+[f5499071-bc90-4e32-87ce-2551088b1cea]     20:         <td><%= friend.first_name %></td>
+[f5499071-bc90-4e32-87ce-2551088b1cea]     21:         <td><%= friend.last_name %></td>
+[f5499071-bc90-4e32-87ce-2551088b1cea]   
+[f5499071-bc90-4e32-87ce-2551088b1cea] app/views/friends/index.html.erb:18
+I, [2021-11-25T09:43:16.665355 #11160]  INFO -- : [c296e3f7-d42b-452d-b8e2-0faa46ae8b0a] Started GET "/friends" for 127.0.0.1 at 2021-11-25 09:43:16 -0800
+I, [2021-11-25T09:43:16.666227 #11160]  INFO -- : [c296e3f7-d42b-452d-b8e2-0faa46ae8b0a] Processing by FriendsController#index as HTML
+I, [2021-11-25T09:43:16.698635 #11160]  INFO -- : [c296e3f7-d42b-452d-b8e2-0faa46ae8b0a]   Rendered friends/index.html.erb within layouts/application (Duration: 30.6ms | Allocations: 208)
+I, [2021-11-25T09:43:16.698770 #11160]  INFO -- : [c296e3f7-d42b-452d-b8e2-0faa46ae8b0a]   Rendered layout layouts/application.html.erb (Duration: 30.8ms | Allocations: 237)
+I, [2021-11-25T09:43:16.698952 #11160]  INFO -- : [c296e3f7-d42b-452d-b8e2-0faa46ae8b0a] Completed 500 Internal Server Error in 33ms (Allocations: 1249)
+F, [2021-11-25T09:43:16.699855 #11160] FATAL -- : [c296e3f7-d42b-452d-b8e2-0faa46ae8b0a]   
+[c296e3f7-d42b-452d-b8e2-0faa46ae8b0a] ActionView::Template::Error (Access denied for user 'test_1'@'localhost' (using password: NO)):
+[c296e3f7-d42b-452d-b8e2-0faa46ae8b0a]     15:     </tr>
+[c296e3f7-d42b-452d-b8e2-0faa46ae8b0a]     16:   </thead>
+[c296e3f7-d42b-452d-b8e2-0faa46ae8b0a]     17:   <tbody>
+[c296e3f7-d42b-452d-b8e2-0faa46ae8b0a]     18:     <% @friends.each do |friend| %>
+[c296e3f7-d42b-452d-b8e2-0faa46ae8b0a]     19:       <tr>
+[c296e3f7-d42b-452d-b8e2-0faa46ae8b0a]     20:         <td><%= friend.first_name %></td>
+[c296e3f7-d42b-452d-b8e2-0faa46ae8b0a]     21:         <td><%= friend.last_name %></td>
+[c296e3f7-d42b-452d-b8e2-0faa46ae8b0a]   
+[c296e3f7-d42b-452d-b8e2-0faa46ae8b0a] app/views/friends/index.html.erb:18
