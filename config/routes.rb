@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :logins
   resources :friends
   get 'home/index'
   root 'home#index'
