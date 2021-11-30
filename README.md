@@ -16,4 +16,6 @@ It currently covers
 
 * Partial linking and methods
 
+* Added user log in functionality and hid some aspects from unregistered users
+
 * Webapp in progress
